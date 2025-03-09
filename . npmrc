@@ -1,0 +1,9 @@
+save-exact=true
+fund=false
+audit=false
+package-lock=true
+engine-strict=true
+resolution-mode=highest
+use-node-version=18.19.0
+auto-install-peers=true
+node-version=18.19.0

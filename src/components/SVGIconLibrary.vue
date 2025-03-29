@@ -24,14 +24,6 @@ const props = defineProps({
     type: String,
     default: '',
   },
-  width: {
-    type: String,
-    default: '25px',
-  },
-  height: {
-    type: String,
-    default: '25px',
-  },
 })
 
 const svgContent: Ref<string> = ref('')
@@ -79,6 +71,6 @@ watch(() => props.icon, async (newIcon) => {
 
 </script>
 <template>
-  <svg v-if="svgContent" v-html="svgContent" :class="customClass" :width="width" :height="height"></svg>
+  <div v-if="svgContent" v-html="svgContent" :class="customClass"></div>
 </template>
 <style scoped lang="scss"></style>

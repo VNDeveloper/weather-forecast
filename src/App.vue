@@ -13,7 +13,7 @@ import CountrySearchBar from '@/components/CountrySearchBar.vue';
   </div>
 
   <div class="footer">
-    <p>&copy; 2023 Weather App</p>
+    <p>&copy; 2023 Weather Ap</p>
   </div>
 
 

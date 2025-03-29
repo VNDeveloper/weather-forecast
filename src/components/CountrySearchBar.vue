@@ -9,7 +9,7 @@ import type { Ref } from 'vue';
 const searchInputText: Ref<string> = ref('');
 
 watch(searchInputText, (newValue) => {
-  console.log('Search input changed:', newValue);
+  console.log('Search input changed test:', newValue);
 });
 </script>
 <template>
